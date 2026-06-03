@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form exercise</title>
+</head>
+<body>
+        <h1>Student Registration</h1>
+        <form action="request.php" method="get">
+            <label for="name">Name</label>
+            <input type="text" name="stu_name" id="name">
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="stu_email" id="email">
+            <br><br>
+
+            <label for="phone">Phone</label>
+            <input type="number" name="stu_phone" id="phone">
+            <br><br>
+
+            <label for="password">password</label>
+            <input type="password" name="password" id="password"><br><br>
+
+            <label for="dob">Date of birth</label>
+            <input type="date" name="stu_dob" id="dob"><br><br>
+
+            <label for="passport">Psassport</label>
+            <input type="file" accept=".pdf" name="stu_passport"> <br><br>
+
+            <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+             <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
+            <input type="radio" name="gender" id="other" value="other"><label for="other">Other</label>
+
+             <br><br>
+
+            <label for="">Hobby</label>
+            <br><br>
+            <input type="checkbox" name="gaming" id="gaming" value="gaming"><label for="gaming">Gaming</label>
+            <input type="checkbox" name="reading" id="reading" value="reading"><label for="reading">Reading</label>
+            <input type="checkbox" name="swimming" id="swimming" value="swimming"><label for="swimming">swimming</label>
+
+            <br><br>
+            <label for="address">Address</label>
+            <textarea name="stu_address" id="address" cols="50" rows="15"></textarea>
+            <br><br><br>
+            <input type="time" name="" id=""><br><br>
+            <input type="range" min="0" max="100" name="" id=""> <br><br>
+            <input type="color" name="" id=""><br><br>
+            <input type="text" name="" id="" required><br><br>
+            <input type="text" name="city1" id="" value="Mandalay"><br><br>
+            <input type="text" name="city1" id="" value="Mandalay" readonly>
+            <input type="text" name="plac" id="" placeholder="eg.09408791122"> 
+
+
+
+
+             
+
+
+            <button type="submit">submit</button>
+        </form>
+</body>
+</html>
