@@ -1,0 +1,10 @@
+h1{
+    color: red;
+}
+ 
+small{
+    color: blue;
+    letter-spacing: 40px;
+    word-spacing: 15px;
+    line-height: 40px ;
+}
